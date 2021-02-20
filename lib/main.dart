@@ -48,11 +48,15 @@ class NewsBox extends StatelessWidget {
     );
   }
 }
-class MyWidget extends StatefulWidget{
+class NewsBoxFavorite extends StatefulWidget{
+  final int _num;
+  final bool _like;
+
+  NewsBoxFavorite(this._num,this._like);
+
   @override
   State<StatefulWidget> createState() {
-    // TODO: implement createState
-    throw UnimplementedError();
+
   }
 
 }
