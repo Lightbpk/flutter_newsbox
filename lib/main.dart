@@ -48,6 +48,14 @@ class NewsBox extends StatelessWidget {
     );
   }
 }
+class MyWidget extends StatefulWidget{
+  @override
+  State<StatefulWidget> createState() {
+    // TODO: implement createState
+    throw UnimplementedError();
+  }
+
+}
 
 void main() => runApp(
   new MaterialApp(
